@@ -152,7 +152,7 @@ class CMB2_Ajax {
 	 */
 	public function hijack_oembed_cache_get( $check, $object_id, $meta_key ) {
 
-		if ( ! $this->hijack || ( $this->object_id != $object_id && 1987645321 !== $object_id ) ) {
+    if ( ! $this->hijack || ( $this->object_id != $object_id ) ) {
 			return $check;
 		}
 
